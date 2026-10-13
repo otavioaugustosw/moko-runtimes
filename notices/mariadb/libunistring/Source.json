@@ -1,0 +1,18 @@
+{
+  "name": "libunistring",
+  "version": "1.4.2",
+  "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:14a72bd0aa3f1b2b3a7360be24380171d140b2fc5abbde0144807d3847b6728c",
+    "sha256": "14a72bd0aa3f1b2b3a7360be24380171d140b2fc5abbde0144807d3847b6728c"
+  },
+  "source": {
+    "url": "https://ftpmirror.gnu.org/libunistring/libunistring-1.4.2.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "e82664b170064e62331962126b259d452d53b227bb4a93ab20040d846fec01d8"
+  },
+  "dependencies": []
+}

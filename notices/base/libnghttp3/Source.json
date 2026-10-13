@@ -1,0 +1,18 @@
+{
+  "name": "libnghttp3",
+  "version": "1.18.0",
+  "license": "MIT",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/libnghttp3/blobs/sha256:f06612abad603898100dfc4fdcff8464789a2b57593ec70255ed633d664020e7",
+    "sha256": "f06612abad603898100dfc4fdcff8464789a2b57593ec70255ed633d664020e7"
+  },
+  "source": {
+    "url": "https://github.com/ngtcp2/nghttp3/releases/download/v1.18.0/nghttp3-1.18.0.tar.xz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "aad782c23d3f01bd4bb52c8bac7a553b631ef8115fd1612703df6183449fef19"
+  },
+  "dependencies": []
+}

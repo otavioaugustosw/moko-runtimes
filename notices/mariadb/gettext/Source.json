@@ -1,0 +1,21 @@
+{
+  "name": "gettext",
+  "version": "1.0",
+  "license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+  "bottle": {
+    "cellar": "/opt/homebrew/Cellar",
+    "url": "https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:3af5392939e50a6ef73e42799fc3ead6ef72fe0040c0a45183d04a4008306d6a",
+    "sha256": "3af5392939e50a6ef73e42799fc3ead6ef72fe0040c0a45183d04a4008306d6a"
+  },
+  "source": {
+    "url": "https://ftpmirror.gnu.org/gettext/gettext-1.0.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "85d99b79c981a404874c02e0342176cf75c7698e2b51fe41031cf6526d974f1a"
+  },
+  "dependencies": [
+    "json-c",
+    "libunistring"
+  ]
+}

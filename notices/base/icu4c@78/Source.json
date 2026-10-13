@@ -1,0 +1,18 @@
+{
+  "name": "icu4c@78",
+  "version": "78.3",
+  "license": "Unicode-3.0",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/icu4c/78/blobs/sha256:0476be299494b97e50a48b0ba08811255300228aef664058e555480d6aee4fb5",
+    "sha256": "0476be299494b97e50a48b0ba08811255300228aef664058e555480d6aee4fb5"
+  },
+  "source": {
+    "url": "https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-sources.tgz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "3a2e7a47604ba702f345878308e6fefeca612ee895cf4a5f222e7955fabfe0c0"
+  },
+  "dependencies": []
+}

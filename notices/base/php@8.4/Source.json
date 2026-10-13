@@ -1,0 +1,40 @@
+{
+  "name": "php@8.4",
+  "version": "8.4.26",
+  "license": "PHP-3.01 AND Zend-2.0 AND BSL-1.0 AND MIT AND Apache-1.0 AND Apache-2.0 AND bcrypt-Solar-Designer AND BSD-2-Clause-Darwin AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND OLDAP-2.8 AND TCL AND Zlib",
+  "bottle": {
+    "cellar": "/opt/homebrew/Cellar",
+    "url": "https://ghcr.io/v2/homebrew/core/php/8.4/blobs/sha256:e6e07d3573f3be869d3e9b5b2d7ba3a00fc2128a9cdd0687b6a5120d9907af3c",
+    "sha256": "e6e07d3573f3be869d3e9b5b2d7ba3a00fc2128a9cdd0687b6a5120d9907af3c"
+  },
+  "source": {
+    "url": "https://www.php.net/distributions/php-8.4.26.tar.xz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "32a2de53862ad44ed4a5005244ce4f1b50c271e74dced215449a4443b40569f1"
+  },
+  "dependencies": [
+    "apr",
+    "apr-util",
+    "argon2",
+    "autoconf",
+    "curl",
+    "freetds",
+    "gd",
+    "gmp",
+    "icu4c@78",
+    "libpq",
+    "libsodium",
+    "libzip",
+    "net-snmp",
+    "oniguruma",
+    "openldap",
+    "openssl@4",
+    "pcre2",
+    "sqlite",
+    "tidy-html5",
+    "unixodbc",
+    "gettext"
+  ]
+}

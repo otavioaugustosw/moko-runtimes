@@ -1,0 +1,18 @@
+{
+  "name": "argon2",
+  "version": "20190702",
+  "license": "CC0-1.0 OR Apache-2.0",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/argon2/blobs/sha256:afaa0b7c4c305b6b8ccef5abb4863d30fc1dfc537cc2bdc43e1c558df25723c6",
+    "sha256": "afaa0b7c4c305b6b8ccef5abb4863d30fc1dfc537cc2bdc43e1c558df25723c6"
+  },
+  "source": {
+    "url": "https://github.com/P-H-C/phc-winner-argon2/archive/refs/tags/20190702.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "daf972a89577f8772602bf2eb38b6a3dd3d922bf5724d45e7f9589b5e830442c"
+  },
+  "dependencies": []
+}

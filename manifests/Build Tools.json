@@ -1,0 +1,38 @@
+{
+  "pkgconf": {
+    "name": "pkgconf",
+    "version": "3.0.8",
+    "license": "ISC",
+    "bottle": {
+      "cellar": "/opt/homebrew/Cellar",
+      "url": "https://ghcr.io/v2/homebrew/core/pkgconf/blobs/sha256:cfcd403c852da8f88324056c0881ce69880fcb675181b20345ff7ffc99d4f586",
+      "sha256": "cfcd403c852da8f88324056c0881ce69880fcb675181b20345ff7ffc99d4f586"
+    },
+    "source": {
+      "url": "https://distfiles.ariadne.space/pkgconf/pkgconf-3.0.8.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "943f0bc88bcaeceb630b00262e2a8ad5ea4fac3fba72a4267d8b9ec6b35d1194"
+    },
+    "dependencies": []
+  },
+  "bison": {
+    "name": "bison",
+    "version": "3.8.2",
+    "license": "GPL-3.0-or-later",
+    "bottle": {
+      "cellar": ":any_skip_relocation",
+      "url": "https://ghcr.io/v2/homebrew/core/bison/blobs/sha256:d47d87f1bead6f00956ea21f147d46ded1c5c2ac0c53193a1ed7b46105492228",
+      "sha256": "d47d87f1bead6f00956ea21f147d46ded1c5c2ac0c53193a1ed7b46105492228"
+    },
+    "source": {
+      "url": "https://ftpmirror.gnu.org/bison/bison-3.8.2.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "9bba0214ccf7f1079c5d59210045227bcf619519840ebfa80cd3849cff5a5bf2"
+    },
+    "dependencies": []
+  }
+}

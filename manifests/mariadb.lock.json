@@ -1,0 +1,203 @@
+{
+  "mariadb@11.8": {
+    "name": "mariadb@11.8",
+    "version": "11.8.9",
+    "license": "GPL-2.0-only",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/mariadb/11.8/blobs/sha256:2a49278226d6874408af5601c4f2467d8430f99e18aa1b92fab0ee2ceb0f1e84",
+      "sha256": "2a49278226d6874408af5601c4f2467d8430f99e18aa1b92fab0ee2ceb0f1e84"
+    },
+    "source": {
+      "url": "https://archive.mariadb.org/mariadb-11.8.9/source/mariadb-11.8.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "2e015b7e91004142eda8b3a20d3ceb875cf2ae55e72603e7222cd497d4e56fc6"
+    },
+    "dependencies": [
+      "groonga",
+      "lz4",
+      "lzo",
+      "openssl@3",
+      "pcre2",
+      "xz",
+      "zstd"
+    ]
+  },
+  "zstd": {
+    "name": "zstd",
+    "version": "1.5.7",
+    "license": "(BSD-3-Clause OR GPL-2.0-only) AND BSD-2-Clause AND MIT",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:628a4ef53428d0078e3d76d297171ce8d0294f5ec1de3f20305e08c4dd333565",
+      "sha256": "628a4ef53428d0078e3d76d297171ce8d0294f5ec1de3f20305e08c4dd333565"
+    },
+    "source": {
+      "url": "https://github.com/facebook/zstd/archive/refs/tags/v1.5.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3"
+    },
+    "dependencies": [
+      "lz4",
+      "xz"
+    ]
+  },
+  "gettext": {
+    "name": "gettext",
+    "version": "1.0",
+    "license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:3af5392939e50a6ef73e42799fc3ead6ef72fe0040c0a45183d04a4008306d6a",
+      "sha256": "3af5392939e50a6ef73e42799fc3ead6ef72fe0040c0a45183d04a4008306d6a"
+    },
+    "source": {
+      "url": "https://ftpmirror.gnu.org/gettext/gettext-1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "85d99b79c981a404874c02e0342176cf75c7698e2b51fe41031cf6526d974f1a"
+    },
+    "dependencies": [
+      "json-c",
+      "libunistring"
+    ]
+  },
+  "libunistring": {
+    "name": "libunistring",
+    "version": "1.4.2",
+    "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:14a72bd0aa3f1b2b3a7360be24380171d140b2fc5abbde0144807d3847b6728c",
+      "sha256": "14a72bd0aa3f1b2b3a7360be24380171d140b2fc5abbde0144807d3847b6728c"
+    },
+    "source": {
+      "url": "https://ftpmirror.gnu.org/libunistring/libunistring-1.4.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "e82664b170064e62331962126b259d452d53b227bb4a93ab20040d846fec01d8"
+    },
+    "dependencies": []
+  },
+  "gmp": {
+    "name": "gmp",
+    "version": "6.3.0",
+    "license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:fa46330de5d003bd9294ae042c8f4ae0a51bcb8c57de2c94c073ff4a7ffa10c3",
+      "sha256": "fa46330de5d003bd9294ae042c8f4ae0a51bcb8c57de2c94c073ff4a7ffa10c3"
+    },
+    "source": {
+      "url": "https://ftpmirror.gnu.org/gmp/gmp-6.3.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898"
+    },
+    "dependencies": []
+  },
+  "gnutls": {
+    "name": "gnutls",
+    "version": "3.8.13",
+    "license": "LGPL-2.1-or-later AND GPL-3.0-only",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:a2334eb50a165945aad7df804a3e846053de62973f6aee8060fec8c16c59446b",
+      "sha256": "a2334eb50a165945aad7df804a3e846053de62973f6aee8060fec8c16c59446b"
+    },
+    "source": {
+      "url": "https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.13.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "ffed8ec1bf09c2426d4f14aae377de4753b53e537d685e604e99a8b16ca9c97e"
+    },
+    "dependencies": [
+      "ca-certificates",
+      "gmp",
+      "libidn2",
+      "libtasn1",
+      "libunistring",
+      "nettle",
+      "p11-kit",
+      "gettext"
+    ]
+  },
+  "libidn2": {
+    "name": "libidn2",
+    "version": "2.3.8",
+    "license": "(GPL-2.0-or-later OR LGPL-3.0-or-later) AND (Unicode-TOU AND Unicode-DFS-2016) AND GPL-3.0-or-later AND LGPL-2.1-or-later AND FSFAP-no-warranty-disclaimer",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:f8f1b459f15a4ac11d2dce786a9140509782227b7d499cbdf3a1279dd325d90b",
+      "sha256": "f8f1b459f15a4ac11d2dce786a9140509782227b7d499cbdf3a1279dd325d90b"
+    },
+    "source": {
+      "url": "https://ftpmirror.gnu.org/libidn/libidn2-2.3.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "f557911bf6171621e1f72ff35f5b1825bb35b52ed45325dcdee931e5d3c0787a"
+    },
+    "dependencies": [
+      "libunistring",
+      "gettext"
+    ]
+  },
+  "libtasn1": {
+    "name": "libtasn1",
+    "version": "4.21.0",
+    "license": "LGPL-2.1-or-later",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libtasn1/blobs/sha256:ae01713eec0bd922b903ed2bf514dc085ec3108636c4ead84614b23a2c33f267",
+      "sha256": "ae01713eec0bd922b903ed2bf514dc085ec3108636c4ead84614b23a2c33f267"
+    },
+    "source": {
+      "url": "https://ftpmirror.gnu.org/libtasn1/libtasn1-4.21.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "1d8a444a223cc5464240777346e125de51d8e6abf0b8bac742ac84609167dc87"
+    },
+    "dependencies": []
+  },
+  "nettle": {
+    "name": "nettle",
+    "version": "4.0",
+    "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:ba11eb261bc502c28c9cd695f8354306d0a31cb1e55c3d3f1568e051293a0f10",
+      "sha256": "ba11eb261bc502c28c9cd695f8354306d0a31cb1e55c3d3f1568e051293a0f10"
+    },
+    "source": {
+      "url": "https://ftpmirror.gnu.org/nettle/nettle-4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "3addbc00da01846b232fb3bc453538ea5468da43033f21bb345cb1e9073f5094"
+    },
+    "dependencies": [
+      "gmp"
+    ]
+  },
+  "p11-kit": {
+    "name": "p11-kit",
+    "version": "0.26.5",
+    "license": "BSD-3-Clause",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:fd108a936783ac40b4c3ea4dda639e7d22faa063e9f40f92b0ed2b2a7e99efa6",
+      "sha256": "fd108a936783ac40b4c3ea4dda639e7d22faa063e9f40f92b0ed2b2a7e99efa6"
+    },
+    "source": {
+      "url": "https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "f2cc09111e44bf3fea58f023180b33acea90aa82d042d6fbb623fbc5ba033bb7"
+    },
+    "dependencies": [
+      "ca-certificates",
+      "libtasn1"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "libngtcp2",
+  "version": "1.25.0",
+  "license": "MIT",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/libngtcp2/blobs/sha256:6f3de07772fcd0b2c34b03276526de3c9ede59dbde95f6a5fafd7c5f9c584173",
+    "sha256": "6f3de07772fcd0b2c34b03276526de3c9ede59dbde95f6a5fafd7c5f9c584173"
+  },
+  "source": {
+    "url": "https://github.com/ngtcp2/ngtcp2/releases/download/v1.25.0/ngtcp2-1.25.0.tar.xz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "2a34d2484ba17847a5d11965704e9dd0fac4c6d8efc75ffe1ec7de66d8c6b6fb"
+  },
+  "dependencies": [
+    "openssl@4"
+  ]
+}

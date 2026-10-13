@@ -1,0 +1,21 @@
+{
+  "name": "mariadb-connector-c",
+  "version": "3.4.11",
+  "license": "LGPL-2.1-or-later",
+  "bottle": {
+    "cellar": "/opt/homebrew/Cellar",
+    "url": "https://ghcr.io/v2/homebrew/core/mariadb-connector-c/blobs/sha256:87595e0874db22f73ce3851878ef6a1b1c245329483ab62bfea941192effefaf",
+    "sha256": "87595e0874db22f73ce3851878ef6a1b1c245329483ab62bfea941192effefaf"
+  },
+  "source": {
+    "url": "https://archive.mariadb.org/connector-c-3.4.11/mariadb-connector-c-3.4.11-src.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "521c0712e9291fa96558df9e2ff431376a3a79329f13751896b694cae12765b4"
+  },
+  "dependencies": [
+    "openssl@4",
+    "zstd"
+  ]
+}

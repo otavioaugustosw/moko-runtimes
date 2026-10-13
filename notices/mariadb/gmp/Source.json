@@ -1,0 +1,18 @@
+{
+  "name": "gmp",
+  "version": "6.3.0",
+  "license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:fa46330de5d003bd9294ae042c8f4ae0a51bcb8c57de2c94c073ff4a7ffa10c3",
+    "sha256": "fa46330de5d003bd9294ae042c8f4ae0a51bcb8c57de2c94c073ff4a7ffa10c3"
+  },
+  "source": {
+    "url": "https://ftpmirror.gnu.org/gmp/gmp-6.3.0.tar.xz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898"
+  },
+  "dependencies": []
+}

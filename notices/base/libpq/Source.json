@@ -1,0 +1,23 @@
+{
+  "name": "libpq",
+  "version": "18.6",
+  "license": "PostgreSQL",
+  "bottle": {
+    "cellar": "/opt/homebrew/Cellar",
+    "url": "https://ghcr.io/v2/homebrew/core/libpq/blobs/sha256:7107ff901d0e9a402d6d210a96942a99bc834d7d7c15ef2e436e6f86d8549b81",
+    "sha256": "7107ff901d0e9a402d6d210a96942a99bc834d7d7c15ef2e436e6f86d8549b81"
+  },
+  "source": {
+    "url": "https://ftp.postgresql.org/pub/source/v18.6/postgresql-18.6.tar.bz2",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "555610c24d53e4316da5b7d3fc25c279d96856d5e0e23ee308c328c5fa881d9f"
+  },
+  "dependencies": [
+    "icu4c@78",
+    "krb5",
+    "openssl@4",
+    "readline"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "openssl@4",
+  "version": "4.0.3",
+  "license": "Apache-2.0",
+  "bottle": {
+    "cellar": "/opt/homebrew/Cellar",
+    "url": "https://ghcr.io/v2/homebrew/core/openssl/4/blobs/sha256:39fb74d25429fbb9794cf4327530ba458b97d0000406715270d3b0715bd6ba35",
+    "sha256": "39fb74d25429fbb9794cf4327530ba458b97d0000406715270d3b0715bd6ba35"
+  },
+  "source": {
+    "url": "https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "325b5c806167c13b40b1ffeadfe0248197c00eccc4cf123ec1e28d2d2fd216d9"
+  },
+  "dependencies": [
+    "ca-certificates"
+  ]
+}

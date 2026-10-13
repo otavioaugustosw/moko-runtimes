@@ -1,0 +1,18 @@
+{
+  "name": "libpsl",
+  "version": "0.23.3",
+  "license": "MIT",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/libpsl/blobs/sha256:3058120ea617a1ba193463788e81b8afd08fcf0abdbaf0bb5bfa85eebc695761",
+    "sha256": "3058120ea617a1ba193463788e81b8afd08fcf0abdbaf0bb5bfa85eebc695761"
+  },
+  "source": {
+    "url": "https://github.com/rockdaboot/libpsl/releases/download/0.23.3/libpsl-0.23.3.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "93941f85a1e7bd593fa94f299233cb5dfc91cd144fd9a78a6ceb75001c5b03be"
+  },
+  "dependencies": []
+}

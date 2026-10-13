@@ -1,0 +1,395 @@
+{
+  "zstd": {
+    "name": "zstd",
+    "version": "1.5.7",
+    "license": "(BSD-3-Clause OR GPL-2.0-only) AND BSD-2-Clause AND MIT",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:628a4ef53428d0078e3d76d297171ce8d0294f5ec1de3f20305e08c4dd333565",
+      "sha256": "628a4ef53428d0078e3d76d297171ce8d0294f5ec1de3f20305e08c4dd333565"
+    },
+    "source": {
+      "url": "https://github.com/facebook/zstd/archive/refs/tags/v1.5.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3"
+    },
+    "dependencies": [
+      "lz4",
+      "xz"
+    ]
+  },
+  "xz": {
+    "name": "xz",
+    "version": "5.8.4",
+    "license": "0BSD AND GPL-2.0-or-later",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:d291ad2277682238329b0e4d249e5e2c948c4b10cd64dba1963d897330ad88dd",
+      "sha256": "d291ad2277682238329b0e4d249e5e2c948c4b10cd64dba1963d897330ad88dd"
+    },
+    "source": {
+      "url": "https://github.com/tukaani-project/xz/releases/download/v5.8.4/xz-5.8.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "0014c7886930454fe8bd4228665b51af55eeae560ea135c9c4cd33f55b2591d9"
+    },
+    "dependencies": []
+  },
+  "ca-certificates": {
+    "name": "ca-certificates",
+    "version": "2026-09-25",
+    "license": "MPL-2.0",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:81804ad8a70a7a8d2a0a964d106765ff88716b310decaeffb4b4895a3252186a",
+      "sha256": "81804ad8a70a7a8d2a0a964d106765ff88716b310decaeffb4b4895a3252186a"
+    },
+    "source": {
+      "url": "https://curl.se/ca/cacert-2026-09-25.pem",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "a41b5d356aea97a529fe27e0f7316d2f9d946d75927476cf9cf1b90637d00505"
+    },
+    "dependencies": []
+  },
+  "mariadb-connector-c": {
+    "name": "mariadb-connector-c",
+    "version": "3.4.11",
+    "license": "LGPL-2.1-or-later",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/mariadb-connector-c/blobs/sha256:87595e0874db22f73ce3851878ef6a1b1c245329483ab62bfea941192effefaf",
+      "sha256": "87595e0874db22f73ce3851878ef6a1b1c245329483ab62bfea941192effefaf"
+    },
+    "source": {
+      "url": "https://archive.mariadb.org/connector-c-3.4.11/mariadb-connector-c-3.4.11-src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "521c0712e9291fa96558df9e2ff431376a3a79329f13751896b694cae12765b4"
+    },
+    "dependencies": [
+      "openssl@4",
+      "zstd"
+    ]
+  },
+  "openssl@4": {
+    "name": "openssl@4",
+    "version": "4.0.3",
+    "license": "Apache-2.0",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/openssl/4/blobs/sha256:39fb74d25429fbb9794cf4327530ba458b97d0000406715270d3b0715bd6ba35",
+      "sha256": "39fb74d25429fbb9794cf4327530ba458b97d0000406715270d3b0715bd6ba35"
+    },
+    "source": {
+      "url": "https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "325b5c806167c13b40b1ffeadfe0248197c00eccc4cf123ec1e28d2d2fd216d9"
+    },
+    "dependencies": [
+      "ca-certificates"
+    ]
+  },
+  "php@8.4": {
+    "name": "php@8.4",
+    "version": "8.4.26",
+    "license": "PHP-3.01 AND Zend-2.0 AND BSL-1.0 AND MIT AND Apache-1.0 AND Apache-2.0 AND bcrypt-Solar-Designer AND BSD-2-Clause-Darwin AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND OLDAP-2.8 AND TCL AND Zlib",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/php/8.4/blobs/sha256:e6e07d3573f3be869d3e9b5b2d7ba3a00fc2128a9cdd0687b6a5120d9907af3c",
+      "sha256": "e6e07d3573f3be869d3e9b5b2d7ba3a00fc2128a9cdd0687b6a5120d9907af3c"
+    },
+    "source": {
+      "url": "https://www.php.net/distributions/php-8.4.26.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "32a2de53862ad44ed4a5005244ce4f1b50c271e74dced215449a4443b40569f1"
+    },
+    "dependencies": [
+      "apr",
+      "apr-util",
+      "argon2",
+      "autoconf",
+      "curl",
+      "freetds",
+      "gd",
+      "gmp",
+      "icu4c@78",
+      "libpq",
+      "libsodium",
+      "libzip",
+      "net-snmp",
+      "oniguruma",
+      "openldap",
+      "openssl@4",
+      "pcre2",
+      "sqlite",
+      "tidy-html5",
+      "unixodbc",
+      "gettext"
+    ]
+  },
+  "argon2": {
+    "name": "argon2",
+    "version": "20190702",
+    "license": "CC0-1.0 OR Apache-2.0",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/argon2/blobs/sha256:afaa0b7c4c305b6b8ccef5abb4863d30fc1dfc537cc2bdc43e1c558df25723c6",
+      "sha256": "afaa0b7c4c305b6b8ccef5abb4863d30fc1dfc537cc2bdc43e1c558df25723c6"
+    },
+    "source": {
+      "url": "https://github.com/P-H-C/phc-winner-argon2/archive/refs/tags/20190702.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "daf972a89577f8772602bf2eb38b6a3dd3d922bf5724d45e7f9589b5e830442c"
+    },
+    "dependencies": []
+  },
+  "curl": {
+    "name": "curl",
+    "version": "8.22.0",
+    "license": "curl",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/curl/blobs/sha256:1535802dbee99fd2141dad6f55b8395993306a2f394079fe32e68d401bc6e466",
+      "sha256": "1535802dbee99fd2141dad6f55b8395993306a2f394079fe32e68d401bc6e466"
+    },
+    "source": {
+      "url": "https://curl.se/download/curl-8.22.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "5d956a6a22b3c279f50c421ee5d3c9e9d660cb6f115dcf881b579e952130549c"
+    },
+    "dependencies": [
+      "brotli",
+      "libnghttp2",
+      "libnghttp3",
+      "libngtcp2",
+      "libpsl",
+      "libssh2",
+      "openssl@4",
+      "zstd"
+    ]
+  },
+  "brotli": {
+    "name": "brotli",
+    "version": "1.2.0",
+    "license": "MIT",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:71ffd30ccd74a9f28cfb210c21fcdc1aa5fec79e23ad2264b6dbceb73437601f",
+      "sha256": "71ffd30ccd74a9f28cfb210c21fcdc1aa5fec79e23ad2264b6dbceb73437601f"
+    },
+    "source": {
+      "url": "https://github.com/google/brotli/archive/refs/tags/v1.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec"
+    },
+    "dependencies": []
+  },
+  "libnghttp2": {
+    "name": "libnghttp2",
+    "version": "1.70.0",
+    "license": "MIT",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:4f04e4a69e2c30443054c6214bf632df69a0d7c17d7fe58578f061a9cbc7f265",
+      "sha256": "4f04e4a69e2c30443054c6214bf632df69a0d7c17d7fe58578f061a9cbc7f265"
+    },
+    "source": {
+      "url": "https://github.com/nghttp2/nghttp2/releases/download/v1.70.0/nghttp2-1.70.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "aa317e2cf9dca6afa0aed68f8fad6ff303ec6982e25a78c75c0b65e2b9b3ded5"
+    },
+    "dependencies": []
+  },
+  "libnghttp3": {
+    "name": "libnghttp3",
+    "version": "1.18.0",
+    "license": "MIT",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libnghttp3/blobs/sha256:f06612abad603898100dfc4fdcff8464789a2b57593ec70255ed633d664020e7",
+      "sha256": "f06612abad603898100dfc4fdcff8464789a2b57593ec70255ed633d664020e7"
+    },
+    "source": {
+      "url": "https://github.com/ngtcp2/nghttp3/releases/download/v1.18.0/nghttp3-1.18.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "aad782c23d3f01bd4bb52c8bac7a553b631ef8115fd1612703df6183449fef19"
+    },
+    "dependencies": []
+  },
+  "libngtcp2": {
+    "name": "libngtcp2",
+    "version": "1.25.0",
+    "license": "MIT",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libngtcp2/blobs/sha256:6f3de07772fcd0b2c34b03276526de3c9ede59dbde95f6a5fafd7c5f9c584173",
+      "sha256": "6f3de07772fcd0b2c34b03276526de3c9ede59dbde95f6a5fafd7c5f9c584173"
+    },
+    "source": {
+      "url": "https://github.com/ngtcp2/ngtcp2/releases/download/v1.25.0/ngtcp2-1.25.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "2a34d2484ba17847a5d11965704e9dd0fac4c6d8efc75ffe1ec7de66d8c6b6fb"
+    },
+    "dependencies": [
+      "openssl@4"
+    ]
+  },
+  "libpsl": {
+    "name": "libpsl",
+    "version": "0.23.3",
+    "license": "MIT",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libpsl/blobs/sha256:3058120ea617a1ba193463788e81b8afd08fcf0abdbaf0bb5bfa85eebc695761",
+      "sha256": "3058120ea617a1ba193463788e81b8afd08fcf0abdbaf0bb5bfa85eebc695761"
+    },
+    "source": {
+      "url": "https://github.com/rockdaboot/libpsl/releases/download/0.23.3/libpsl-0.23.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "93941f85a1e7bd593fa94f299233cb5dfc91cd144fd9a78a6ceb75001c5b03be"
+    },
+    "dependencies": []
+  },
+  "libssh2": {
+    "name": "libssh2",
+    "version": "1.11.1",
+    "license": "BSD-3-Clause",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libssh2/blobs/sha256:d51f26fef662c9f562f8d6bee348c9e9fdd2a917cc96bb1b26aa53116b9e7481",
+      "sha256": "d51f26fef662c9f562f8d6bee348c9e9fdd2a917cc96bb1b26aa53116b9e7481"
+    },
+    "source": {
+      "url": "https://libssh2.org/download/libssh2-1.11.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "d9ec76cbe34db98eec3539fe2c899d26b0c837cb3eb466a56b0f109cabf658f7"
+    },
+    "dependencies": [
+      "openssl@4"
+    ]
+  },
+  "icu4c@78": {
+    "name": "icu4c@78",
+    "version": "78.3",
+    "license": "Unicode-3.0",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/icu4c/78/blobs/sha256:0476be299494b97e50a48b0ba08811255300228aef664058e555480d6aee4fb5",
+      "sha256": "0476be299494b97e50a48b0ba08811255300228aef664058e555480d6aee4fb5"
+    },
+    "source": {
+      "url": "https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-sources.tgz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "3a2e7a47604ba702f345878308e6fefeca612ee895cf4a5f222e7955fabfe0c0"
+    },
+    "dependencies": []
+  },
+  "libpq": {
+    "name": "libpq",
+    "version": "18.6",
+    "license": "PostgreSQL",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libpq/blobs/sha256:7107ff901d0e9a402d6d210a96942a99bc834d7d7c15ef2e436e6f86d8549b81",
+      "sha256": "7107ff901d0e9a402d6d210a96942a99bc834d7d7c15ef2e436e6f86d8549b81"
+    },
+    "source": {
+      "url": "https://ftp.postgresql.org/pub/source/v18.6/postgresql-18.6.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "555610c24d53e4316da5b7d3fc25c279d96856d5e0e23ee308c328c5fa881d9f"
+    },
+    "dependencies": [
+      "icu4c@78",
+      "krb5",
+      "openssl@4",
+      "readline"
+    ]
+  },
+  "libsodium": {
+    "name": "libsodium",
+    "version": "1.0.22",
+    "license": "ISC",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:665929906297818edf15955cf4e4faefca7d717271c9fa448291989d2511d266",
+      "sha256": "665929906297818edf15955cf4e4faefca7d717271c9fa448291989d2511d266"
+    },
+    "source": {
+      "url": "https://download.libsodium.org/libsodium/releases/libsodium-1.0.22.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "adbdd8f16149e81ac6078a03aca6fc03b592b89ef7b5ed83841c086191be3349"
+    },
+    "dependencies": []
+  },
+  "libzip": {
+    "name": "libzip",
+    "version": "1.12",
+    "license": "BSD-3-Clause",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:24a451df5142724086a16439fac719df1b0da9fa0c68a1bfe0133f5db51f05e6",
+      "sha256": "24a451df5142724086a16439fac719df1b0da9fa0c68a1bfe0133f5db51f05e6"
+    },
+    "source": {
+      "url": "https://libzip.org/download/libzip-1.12.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "376908d0f0fda13180a19fdc4f7062a1abfb59e09ca07a392d361253b8e60c2b"
+    },
+    "dependencies": [
+      "xz",
+      "zstd"
+    ]
+  },
+  "oniguruma": {
+    "name": "oniguruma",
+    "version": "6.9.10",
+    "license": "BSD-2-Clause",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/oniguruma/blobs/sha256:eb6bda3b333f497b5d294388f39fd0902a5c79a52ae16858eff711d2d104cc4d",
+      "sha256": "eb6bda3b333f497b5d294388f39fd0902a5c79a52ae16858eff711d2d104cc4d"
+    },
+    "source": {
+      "url": "https://github.com/kkos/oniguruma/releases/download/v6.9.10/onig-6.9.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "2a5cfc5ae259e4e97f86b68dfffc152cdaffe94e2060b770cb827238d769fc05"
+    },
+    "dependencies": []
+  },
+  "sqlite": {
+    "name": "sqlite",
+    "version": "3.54.0",
+    "license": "blessing",
+    "bottle": {
+      "url": "https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:7d95089d3dd3abf4aec197d1f91964d14d6481713e55411b9838ea5e969588dc",
+      "sha256": "7d95089d3dd3abf4aec197d1f91964d14d6481713e55411b9838ea5e969588dc"
+    },
+    "source": {
+      "url": "https://www.sqlite.org/2026/sqlite-autoconf-3540000.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "134ec0802dda5795816e25d25872d20b312cb3973438c49b30bc40b7705ea9ed"
+    },
+    "dependencies": [
+      "readline"
+    ]
+  }
+}

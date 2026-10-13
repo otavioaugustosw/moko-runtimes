@@ -1,0 +1,7 @@
+Mozilla CA certificate data
+
+This distribution contains CA certificate data extracted from Mozilla and converted to PEM by the curl project. The PEM is covered by the Mozilla Public License 2.0. The license text accompanies this notice.
+
+The exact redistributed PEM, source URL and checksum are included in the corresponding runtime source archive under ca-certificates. The original certificate data is maintained by Mozilla; curl documents its conversion and licensing at https://curl.se/docs/caextract.html . The conversion does not preserve all Firefox policy constraints.
+
+MPL-covered material remains available under the MPL. moko's application license does not restrict those rights. Questions about source access: contato@otavioaugustosw.com.

@@ -1,0 +1,21 @@
+{
+  "name": "libidn2",
+  "version": "2.3.8",
+  "license": "(GPL-2.0-or-later OR LGPL-3.0-or-later) AND (Unicode-TOU AND Unicode-DFS-2016) AND GPL-3.0-or-later AND LGPL-2.1-or-later AND FSFAP-no-warranty-disclaimer",
+  "bottle": {
+    "cellar": "/opt/homebrew/Cellar",
+    "url": "https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:f8f1b459f15a4ac11d2dce786a9140509782227b7d499cbdf3a1279dd325d90b",
+    "sha256": "f8f1b459f15a4ac11d2dce786a9140509782227b7d499cbdf3a1279dd325d90b"
+  },
+  "source": {
+    "url": "https://ftpmirror.gnu.org/libidn/libidn2-2.3.8.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "f557911bf6171621e1f72ff35f5b1825bb35b52ed45325dcdee931e5d3c0787a"
+  },
+  "dependencies": [
+    "libunistring",
+    "gettext"
+  ]
+}

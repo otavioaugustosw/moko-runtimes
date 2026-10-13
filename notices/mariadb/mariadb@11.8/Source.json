@@ -1,0 +1,26 @@
+{
+  "name": "mariadb@11.8",
+  "version": "11.8.9",
+  "license": "GPL-2.0-only",
+  "bottle": {
+    "cellar": "/opt/homebrew/Cellar",
+    "url": "https://ghcr.io/v2/homebrew/core/mariadb/11.8/blobs/sha256:2a49278226d6874408af5601c4f2467d8430f99e18aa1b92fab0ee2ceb0f1e84",
+    "sha256": "2a49278226d6874408af5601c4f2467d8430f99e18aa1b92fab0ee2ceb0f1e84"
+  },
+  "source": {
+    "url": "https://archive.mariadb.org/mariadb-11.8.9/source/mariadb-11.8.9.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "2e015b7e91004142eda8b3a20d3ceb875cf2ae55e72603e7222cd497d4e56fc6"
+  },
+  "dependencies": [
+    "groonga",
+    "lz4",
+    "lzo",
+    "openssl@3",
+    "pcre2",
+    "xz",
+    "zstd"
+  ]
+}

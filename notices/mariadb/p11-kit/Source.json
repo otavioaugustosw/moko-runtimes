@@ -1,0 +1,21 @@
+{
+  "name": "p11-kit",
+  "version": "0.26.5",
+  "license": "BSD-3-Clause",
+  "bottle": {
+    "cellar": "/opt/homebrew/Cellar",
+    "url": "https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:fd108a936783ac40b4c3ea4dda639e7d22faa063e9f40f92b0ed2b2a7e99efa6",
+    "sha256": "fd108a936783ac40b4c3ea4dda639e7d22faa063e9f40f92b0ed2b2a7e99efa6"
+  },
+  "source": {
+    "url": "https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "f2cc09111e44bf3fea58f023180b33acea90aa82d042d6fbb623fbc5ba033bb7"
+  },
+  "dependencies": [
+    "ca-certificates",
+    "libtasn1"
+  ]
+}

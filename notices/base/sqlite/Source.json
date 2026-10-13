@@ -1,0 +1,20 @@
+{
+  "name": "sqlite",
+  "version": "3.54.0",
+  "license": "blessing",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:7d95089d3dd3abf4aec197d1f91964d14d6481713e55411b9838ea5e969588dc",
+    "sha256": "7d95089d3dd3abf4aec197d1f91964d14d6481713e55411b9838ea5e969588dc"
+  },
+  "source": {
+    "url": "https://www.sqlite.org/2026/sqlite-autoconf-3540000.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "134ec0802dda5795816e25d25872d20b312cb3973438c49b30bc40b7705ea9ed"
+  },
+  "dependencies": [
+    "readline"
+  ]
+}

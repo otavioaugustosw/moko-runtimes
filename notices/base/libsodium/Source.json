@@ -1,0 +1,18 @@
+{
+  "name": "libsodium",
+  "version": "1.0.22",
+  "license": "ISC",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:665929906297818edf15955cf4e4faefca7d717271c9fa448291989d2511d266",
+    "sha256": "665929906297818edf15955cf4e4faefca7d717271c9fa448291989d2511d266"
+  },
+  "source": {
+    "url": "https://download.libsodium.org/libsodium/releases/libsodium-1.0.22.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "adbdd8f16149e81ac6078a03aca6fc03b592b89ef7b5ed83841c086191be3349"
+  },
+  "dependencies": []
+}

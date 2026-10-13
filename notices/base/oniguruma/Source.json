@@ -1,0 +1,18 @@
+{
+  "name": "oniguruma",
+  "version": "6.9.10",
+  "license": "BSD-2-Clause",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/oniguruma/blobs/sha256:eb6bda3b333f497b5d294388f39fd0902a5c79a52ae16858eff711d2d104cc4d",
+    "sha256": "eb6bda3b333f497b5d294388f39fd0902a5c79a52ae16858eff711d2d104cc4d"
+  },
+  "source": {
+    "url": "https://github.com/kkos/oniguruma/releases/download/v6.9.10/onig-6.9.10.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "2a5cfc5ae259e4e97f86b68dfffc152cdaffe94e2060b770cb827238d769fc05"
+  },
+  "dependencies": []
+}

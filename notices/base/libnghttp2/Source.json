@@ -1,0 +1,18 @@
+{
+  "name": "libnghttp2",
+  "version": "1.70.0",
+  "license": "MIT",
+  "bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:4f04e4a69e2c30443054c6214bf632df69a0d7c17d7fe58578f061a9cbc7f265",
+    "sha256": "4f04e4a69e2c30443054c6214bf632df69a0d7c17d7fe58578f061a9cbc7f265"
+  },
+  "source": {
+    "url": "https://github.com/nghttp2/nghttp2/releases/download/v1.70.0/nghttp2-1.70.0.tar.gz",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "aa317e2cf9dca6afa0aed68f8fad6ff303ec6982e25a78c75c0b65e2b9b3ded5"
+  },
+  "dependencies": []
+}

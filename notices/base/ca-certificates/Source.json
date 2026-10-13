@@ -1,0 +1,18 @@
+{
+  "name": "ca-certificates",
+  "version": "2026-09-25",
+  "license": "MPL-2.0",
+  "bottle": {
+    "cellar": ":any_skip_relocation",
+    "url": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:81804ad8a70a7a8d2a0a964d106765ff88716b310decaeffb4b4895a3252186a",
+    "sha256": "81804ad8a70a7a8d2a0a964d106765ff88716b310decaeffb4b4895a3252186a"
+  },
+  "source": {
+    "url": "https://curl.se/ca/cacert-2026-09-25.pem",
+    "tag": null,
+    "revision": null,
+    "using": null,
+    "checksum": "a41b5d356aea97a529fe27e0f7316d2f9d946d75927476cf9cf1b90637d00505"
+  },
+  "dependencies": []
+}
